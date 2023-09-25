@@ -1,0 +1,24 @@
+{
+	"manifest_version": 3,
+	"name":"Mon Extension",
+	"description":"Exercice",
+	"version": "1.0.1",
+	"permissions": [
+		"activeTab",
+		"storage"
+	],
+	"background": {
+    	"service_worker": "service-worker.js"
+    },
+	"content_scripts": [
+	    {
+	      "matches": ["<all_urls>"],
+	      "js": ["scripts/content-script.js"],
+	      "css": ["scripts/content-script.css"]
+	    }
+	  ],
+	"action": {
+	    "default_popup": "popups/popup.html",
+	    "default_icon": "icons/alpha.png"
+	}
+}

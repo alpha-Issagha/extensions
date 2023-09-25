@@ -1,0 +1,9 @@
+#my-button {
+  position: fixed;
+  top: 10px; /* Ajustez la position verticale selon vos besoins */
+  right: 10px; /* Ajustez la position horizontale selon vos besoins */
+  z-index: 9999; /* Assurez-vous que le bouton est au-dessus de tout le contenu de la page */
+  background-color: white; /* Couleur d'arrière-plan */
+  border: 1px solid #ccc; /* Bordure */
+  padding: 10px; /* Marge intérieure */
+}
