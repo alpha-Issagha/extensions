@@ -1,7 +1,7 @@
 
 chrome.runtime.onInstalled.addListener(() => {
     
-    //receiving a message
+    //receiving a messag
     chrome.runtime.onMessage.addListener(
         function(request, sender, sendResponse) {
         console.log(request.greeting);
